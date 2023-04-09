@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navegacao ul li:nth-child(3) a {
+	color: #211915;
+	cursor: text;
+}

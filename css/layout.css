@@ -1,0 +1,816 @@
+/* CSS Document */
+/* IMPORTAÇÕES */
+@import url("normalize.css");
+@import url("movel.css");
+@import url("hover.css");
+/* FONTES */
+@import url("../webfonts/PFBeauSansPro-BoldItalic/stylesheet.css");
+@import url("../webfonts/PFBeauSansPro-Italic/stylesheet.css");
+/* ocultar mobile */
+@media only screen and (min-width: 768px) {
+.movel {
+	display: none !important;
+	visibility: hidden !important;
+}
+}
+.desktop {
+	margin: 0 auto;
+	max-width: 2000px;
+	min-width: 768px;
+	position: relative;
+	z-index: 1;
+}
+.topo, .corpo, .rodape {
+	position: relative;
+	z-index: 10;
+}
+.topo-container, .corpo, .rodape-container {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+.fundo {
+	display: block;
+	/*height: 35%;*/
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1 !important;
+}
+.topo {
+	background: transparent;
+	font-size: 1.2em;
+	min-height: 3.65em;
+	margin-bottom: 9.7%;
+	max-height: 9.68em;
+	width: 100%;
+}
+#logo {
+	height: 14.3em;
+	left: 0px;
+	max-height: 240px;
+	max-width: 791px;
+	padding-top: 4.8%;
+	padding-right: 0.950%;
+	position: absolute;
+	text-align: right;
+	top: 0px;
+	width: 39.55%;
+}
+.nicho {
+	display: block;
+	height: 15.4%;
+	max-width: 111px;
+	position: absolute;
+	right: -9.2%;
+	top: 0px;
+	width: 14%;
+}
+
+
+/* redefinicoes em largura mínima 1600px e máxima 1699px */
+@media only screen and (max-width: 1699px) and (min-width: 1600px) {
+/* redefinicao padding superior e direito box da logo */
+#logo {
+	padding-top: 4%;
+	padding-right: 1.5%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -9.7%;
+}
+}
+.logo-fundo {
+	display: block;
+	/*height: 35%;*/
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1 !important;
+}
+.logo {
+	max-width: 343px;
+	position: relative;
+	z-index: 2;
+}
+.redes-atendimento {
+	display: inline-block;
+	float: right;
+	padding-top: 0.855%;
+	width: 34.75%;
+}
+.redes {
+	color: #F08028;
+	display: inline-block;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 0.75em;
+	max-width: 207px;
+	text-align: center;
+	width: 48%;
+}
+.redes img {
+	padding: 3.59% 0.52%;
+}
+.atendimento {
+	display: inline-block;
+	width: 48%;
+}
+.navegacao {
+	float: right;
+	/*margin-top: 1.5%;*/
+	margin-top: .35%;
+	max-width: 800px;
+	width: 70%;
+}
+
+
+/* redefinicoes em largura mínima 1800px e máxima 1899px */
+@media only screen and (max-width: 1899px) and (min-width: 1800px) {
+/* redefinicao da margem superior do menu */
+.navegacao {
+	margin-top: .45%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1700px e máxima 1799px */
+@media only screen and (max-width: 1799px) and (min-width: 1700px) {
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: 0.655%;
+}
+/* redefinicao da margem superior do menu */
+.navegacao {
+	margin-top: .35%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1600px e máxima 1699px */
+@media only screen and (max-width: 1699px) and (min-width: 1600px) {
+/* redefinicao padding superior box da logo */
+#logo {
+	padding-top: 3.75%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 80%;
+}
+/* redefinicao da margem superior + largura do menu */
+.navegacao {
+	margin-top: -.05%;
+	width: 67%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1500px e máxima 1599px */
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: .005%;
+}
+/* redefinicao da margem superior do menu */
+.navegacao {
+	margin-top: -.60%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1400px e máxima 1499px */
+@media only screen and (max-width: 1499px) and (min-width: 1400px) {
+/* redefinicao padding superior box da logo */
+#logo {
+	padding-top: 3.5%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -9.9%;
+}
+/* redefinicao do padding SUPERIOR e INFERIOR das imagens de redes sociais */
+.redes img {
+	padding: 1.4% 0.52%;
+}
+/* redefinicao da largura do menu */
+.navegacao {
+	width: 65.5%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1300px e máxima 1399px */
+@media only screen and (max-width: 1399px) and (min-width: 1300px) {
+/* redefinicao padding superior box da logo */
+#logo {
+	padding-top: 3.15%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -10.3%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 75%;
+}
+/* redefinicao da largura do menu */
+.navegacao {
+	width: 65.5%;
+}
+}
+.navegacao ul {
+	display: block;
+	list-style-type: none;
+	position: relative;
+	width: 100%;
+}
+.navegacao ul li {
+	display: inline-block !important;
+	padding-top: 0.65%;
+}
+.navegacao ul li a {
+	color: #ffffff;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.05em;
+	display: block;
+	padding: .4em 1em;
+}
+.navegacao ul li a:hover {
+	color: #211915;
+	text-decoration: none;
+	-webkit-transition: all 0s ease-in-out !important;
+	-moz-transition: all 0s ease-in-out !important;
+	transition: all 0s ease-in-out !important;
+}
+.menu-home:hover {
+	filter: none;
+	-webkit-filter: brightness(0);
+}
+.titulos {
+	left: 7.47%;
+	max-width: 1254px;
+	position: absolute;
+	width: 100%;
+	z-index: 11;
+}
+.titulos-fundo {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 88%;
+	z-index: 10;
+}
+.titulos h1 {
+	color: #ffffff;
+	display: block;
+	float: none;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.6em;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding-left: 20%;
+	padding-top: 2%;
+	position: relative;
+	text-align: left;
+	text-transform: uppercase;
+	z-index: 12;
+}
+
+
+/* redefinicoes em largura mínima 1600px e máxima 1699px */
+@media only screen and (max-width: 1699px) and (min-width: 1600px) {
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 82%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 16%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1500px e máxima 1599px */
+@media only screen and (max-width: 1599px) and (min-width: 1500px) {
+/* redefinicao padding superior box da logo */
+#logo {
+	padding-top: 3.45%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -9.9%;
+}
+/* redefinicao da largura do menu */
+.navegacao {
+	width: 65.5%;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 72%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 12%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1400px e máxima 1499px */
+@media only screen and (max-width: 1499px) and (min-width: 1400px) {
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: 0%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 70%;
+}
+/* redefinicao do margin superior do menu */
+.navegacao {
+	margin-top: .25%;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 64%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 7.8%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1300px e máxima 1399px */
+@media only screen and (max-width: 1399px) and (min-width: 1300px) {
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: 0%;
+}
+/* redefinicao do padding SUPERIOR e INFERIOR + largura das imagens de redes sociais */
+.redes img {
+	padding: 1.4% 0.52%;
+	width: 18%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 65%;
+}
+/* redefinicao do margin superior + largura do menu */
+.navegacao {
+	margin-top: .25%;
+	width: 65%;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 62%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 2.8%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1200px e máxima 1299px */
+@media only screen and (max-width: 1299px) and (min-width: 1200px) {
+/* redefinicao padding superior e direito box da logo */
+#logo {
+	padding-right: 1.5%;
+	padding-top: 3.75%;
+}
+/* redefinicao largura da logo */
+.logo {
+	width: 55%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -9.9%;
+}
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: 0%;
+}
+/* redefinicao do padding SUPERIOR e INFERIOR + largura das imagens de redes sociais */
+.redes img {
+	padding: 1.4% 0.52%;
+	width: 18%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 45%;
+}
+/* redefinicao do margin superior + largura do menu */
+.navegacao {
+	margin-top: .25%;
+	width: 65%;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 62%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 2.8%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1100px e máxima 1199px */
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {
+/* redefinicao tamanho da fonte em topo e conteudos (apenas) */
+.desktop {
+	font-size: 0.93em;
+}
+/* redefinicao padding superior e direito box da logo */
+#logo {
+	height: 9em;
+	padding-right: 1.5%;
+	padding-top: 3.75%;
+}
+/* redefinicao largura da logo */
+.logo {
+	width: 55%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -9.9%;
+}
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: 0%;
+}
+/* redefinicao do padding SUPERIOR e INFERIOR + largura das imagens de redes sociais */
+.redes img {
+	padding: 1.4% 0.52%;
+	width: 18%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 65%;
+}
+/* redefinicao do margin superior + largura do menu */
+.navegacao {
+	margin-top: .05%;
+	width: 63%;
+}
+/* redefinicao do padding superior e inferior + padding laterais dos links no menu */
+.navegacao ul li a {
+	padding: .02em 1em;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 62%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 2.8%;
+}
+}
+.corpo {
+}
+.conteudos {
+	background: #ffffff;
+	box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.137);
+	float: left;
+	min-height: 100px;
+	padding: 10% 5% 2% 5%;
+	width: 96%;
+}
+.conteudos-navegacao {
+	color: #F08028;
+	float: left;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 2em;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 1.7%;
+	text-align: right;
+	text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.137);
+	width: 96%;
+}
+.conteudos-navegacao a {
+	color: #F08028;
+}
+.conteudos-navegacao a:hover {
+	text-decoration: none;
+}
+.rodape {
+	border-top: solid 0.5em #f08028;
+	float: left;
+	padding-top: 1.7%;
+	width: 100%;
+}
+.rodape-container {
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 100%;
+}
+.contatos {
+	color: #F08028;
+	display: inline-block;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	font-size: 1.32em;
+	width: 34.9%;
+}
+.endereco {
+	color: #F08028;
+	display: block;
+	font-family: 'Myriad Pro';
+	font-size: 1.05em;
+	font-weight: normal;
+	width: 90%;
+}
+.grupo {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 45.4%;
+}
+.grupo:before {
+	color: #F08028;
+	content: "empresas do grupo:";
+	display: block;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.32em;
+	position: absolute;
+	top: 20%;
+	width: 66%;
+}
+.grupo img:first-child {
+	margin-right: 4.144%;
+	padding-top: 8.5%;
+}
+.inferior {
+	border-bottom: solid 1px #b1b1b1;
+	border-top: solid 1px #b1b1b1;
+	margin-top: 1.539%;
+	margin-bottom: 2.3vh;
+}
+.email {
+	border-right: solid 1px #b1b1b1;
+	color: #F08028;
+	display: inline-block;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.32em;
+	padding: 0.65% 0;
+	width: 33.9%;
+}
+.email a {
+	color: #F08028;
+	text-decoration: none;
+}
+.email a img {
+	padding-left: 2.275%;
+}
+.copyright {
+	color: #F08028;
+	display: inline-block;
+	font-family: 'pf_beausans_probold_italic';
+	font-size: 1.32em;
+	width: 45.4%;
+	text-align: center;
+}
+.desenvolvimento {
+	color: #F08028;
+	display: inline-block;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.32em;
+	width: 20%;
+}
+.gosites {
+	margin-left: 0.4%;
+	max-width: 75px;
+}
+.subir {
+	bottom: 12%;
+	display: inline-block;
+	max-width: 54px;
+	position: absolute;
+	right: 20.55%;
+	text-align: right;
+	width: 20%;
+	z-index: 10;
+}
+
+
+/* redefinicoes em largura mínima 1200px e máxima 1299px */
+@media only screen and (max-width: 1299px) and (min-width: 1200px) {
+/* redefinicao largura do rodape */
+.rodape-container {
+	width: 95%;
+}
+/* redefinicao largura do box grupo */
+.grupo {
+	width: 60%;
+}
+/* redefinicao localizacao superior texto grupo (empresas do grupo:) */
+.grupo:before {
+	top: 13%;
+}
+/* redefinicao primeira imagem grupo */
+.grupo img:first-child {
+	margin-right: 4.144%;
+	padding-top: 7.5%;
+}
+/* redefinicao largura box copyright */
+.copyright {
+	width: 44.4%;
+}
+}
+
+
+/* redefinicoes em largura mínima 1100px e máxima 1199px */
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {
+/* redefinicao largura do rodape */
+.rodape-container {
+	width: 95%;
+}
+/* redefinicao largura do box grupo */
+.grupo {
+	width: 60%;
+}
+/* redefinicao localizacao superior texto grupo (empresas do grupo:) */
+.grupo:before {
+	top: 13%;
+}
+/* redefinicao primeira imagem grupo */
+.grupo img:first-child {
+	margin-right: 4.144%;
+	padding-top: 7.5%;
+}
+/* redefinicao largura box copyright */
+.copyright {
+	width: 44.4%;
+}
+}
+
+
+/* redefinicoes em largura mínima 768px e máxima 1099px */
+@media only screen and (max-width: 1099px) and (min-width: 768px) {
+/* redefinicao tamanho da fonte em topo e conteudos (apenas) */
+.desktop {
+	font-size: 0.93em;
+}
+/* redefinicao padding superior e direito box da logo */
+#logo {
+	height: 9em;
+	padding-right: 1.5%;
+	padding-top: 3.75%;
+}
+/* redefinicao largura da logo */
+.logo {
+	width: 55%;
+}
+/* redefinicao direcao direita do nicho (lado direito da logo) */
+.nicho {
+	right: -9.9%;
+}
+/* redefinicao do padding superior do container redes sociais + atendimento */
+.redes-atendimento {
+	padding-top: 0%;
+}
+/* redefinicao do padding SUPERIOR e INFERIOR + largura das imagens de redes sociais */
+.redes img {
+	padding: 1.4% 0.52%;
+	width: 18%;
+}
+/* redefinicao largura imagem atendimento */
+.atendimento img {
+	width: 65%;
+}
+/* redefinicao do margin superior + largura do menu */
+.navegacao {
+	margin-top: .05%;
+	width: 63%;
+}
+/* redefinicao do padding superior e inferior + padding laterais dos links no menu */
+.navegacao ul li a {
+	padding: .02em 1em;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 62%;
+}
+/* redefinicao padding esquerda h1 titulos */
+.titulos h1 {
+	padding-left: 2.8%;
+}
+/* redefinicao largura do rodape */
+.rodape-container {
+	width: 95%;
+}
+/* redefinicao largura do box grupo */
+.grupo {
+	width: 60%;
+}
+/* redefinicao localizacao superior texto grupo (empresas do grupo:) */
+.grupo:before {
+	top: 13%;
+}
+/* redefinicao primeira imagem grupo */
+.grupo img:first-child {
+	margin-right: 4.144%;
+	padding-top: 7.5%;
+}
+/* redefinicao largura box copyright */
+.copyright {
+	width: 44.4%;
+}
+}
+
+
+/* redefinicoes em largura mínima 930px e máxima 1086px */
+@media only screen and (max-width: 1086px) and (min-width: 930px) {
+/* redefinicao margin topo navegacao */
+.navegacao {
+	margin-top: -4px !important;
+}
+/* redefinicao do padding superior e inferior + padding laterais dos links no menu */
+.navegacao ul li a {
+	padding: 0 0.5em;
+}
+/* redefinicao tamanho da fonte box inferior (email+copyright+gosites) */
+.inferior {
+	font-size: 0.8em;
+}
+/* redefinicao largura logo gosites */
+.gosites {
+	width: 35%;
+}
+}
+
+
+/* redefinicoes em largura mínima 768px e máxima 930px */
+@media only screen and (max-width: 930px) and (min-width: 768px) {
+/* redefinicao margin topo na navegacao */
+.navegacao {
+	margin-top: -4px !important;
+}
+/* redefinicao do padding superior e inferior + padding laterais +  tamanho da fonte dos links no menu */
+.navegacao ul li a {
+	font-size: 1.5rem;
+	padding: .02em 0.2em;
+}
+/* redefinicao direcao esquerda box titulos */
+.titulos {
+	left: 0%;
+}
+/* redefinicao largura da imagem de fundo em titulos */
+.titulos-fundo {
+	width: 62%;
+}
+/* redefinicao padding esquerda h1 e tamanho de fonte dos titulos */
+.titulos h1 {
+	font-size: 1.6em;
+	padding-left: 1.8%;
+}
+/* redefinicao tamanho da fonte box inferior (email+copyright+gosites) */
+.inferior {
+	font-size: 0.8em;
+}
+/* redefinicao largura box email */
+.email {
+	width: 40%;
+}
+/* redefinicao largura box copyright */
+.copyright {
+	width: 30%;
+}
+/* redefinicao largura box desenvolvimento (gosites) */
+.desenvolvimento {
+	width: 28%;
+}
+/* redefinicao largura logo gosites */
+.gosites {
+	width: 35%;
+}
+}

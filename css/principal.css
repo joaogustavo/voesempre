@@ -1,0 +1,735 @@
+@charset "utf-8";
+@import url("../webfonts/opensans_semibold_3/stylesheet.css");
+/* CSS Document */
+/* redefinicao da template */
+.topo {
+	margin-bottom: 4%;
+}
+.corpo {
+	z-index: 115 !important;
+}
+.conteudos {
+	background: transparent;
+	box-shadow: none;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+}
+.conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+/* banners */
+.banners {
+	border-bottom: solid 7px #F08028;
+	display: block;
+	height: 42.68em;
+	margin: 0 auto;
+	margin-bottom: 0.75em;
+	max-height: 598px;
+	max-width: 2000px;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+}
+.banner {
+	display: block;
+	height: 100%;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+}
+.banners-navegacao-formulario-cotacao {
+	margin: 19em auto 0 auto;
+	max-width: 1170px;
+	min-height: 43px;
+	padding-left: 2em;
+	position: relative;
+	/*width: 35.7%;*/
+	z-index: 5;
+}
+.banners-navegacao a {
+	display: block;
+	height: 43px;
+	max-width: 27px;
+}
+.banners-navegacao img {
+	max-width: 27px;
+	position: relative;
+	width: 100%;
+}
+.banners-direita {
+	display: block;
+	left: 60%;
+	position: absolute;
+	top: 0px;
+}
+/* formulario de cotacao */
+.cotacao {
+	max-width: 431px;
+	position: absolute;
+	right: 0px;
+	top: -16em;
+	width: 40%;
+}
+.cotacao-cabecalho header {
+	position: relative;
+	text-align: center;
+}
+.cotacao-cabecalho header h1 {
+	background: rgba(0,0,0,0.32);
+	border: solid 1px #ffffff;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.137);
+	color: #ffffff;
+	display: block;
+	float: none;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.4em;
+	margin: 0 auto 0.6em auto;
+	text-transform: uppercase;
+	padding: 0.23em 0;
+	position: relative;
+	width: 90%;
+}
+.cotacao-cabecalho header h1 img {
+	left: -0.35em;
+	position: absolute;
+	top: -0.35em;
+}
+.cotacao-cabecalho header h2 {
+	display: block;
+	float: none;
+	font-family: 'Myriad Pro';
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0 auto 0.6em auto;
+	text-align: center;
+	text-shadow: 0.5px 0.866px 1px rgba(255, 255, 255, 0.294);
+	width: 90%;
+}
+.formulario {
+	float: none;
+	margin-bottom: 0.8em;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+}
+.formulario img {
+	bottom: -0.9em;
+	height: 2em;
+	left: 0px;
+	margin-bottom: 0;
+	position: absolute;
+	width: 100% !important;
+	z-index: 2;
+}
+.formulario header {
+	background-image: -moz-linear-gradient( 90deg, rgb(231,231,231) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(231,231,231) 0%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(231,231,231) 0%, rgb(255,255,255) 100%);
+	border-radius: 8px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	color: #888888;
+	display: block;
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 0.71425em;
+	padding: 0.55em 0.5em;
+	text-align: left;
+}
+.formulario form {
+	background-image: -moz-linear-gradient( 90deg, rgb(236,236,236) 0%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(236,236,236) 0%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(236,236,236) 0%, rgb(255,255,255) 100%);
+	border: solid 1px #dbdbdb;
+	border-radius: 3px;
+	display: block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0.5px 0.866px 1px 0px rgba(253, 253, 253, 0.392), inset 0.5px 0.866px 1px 0px rgba(255, 255, 255, 0.392);
+	position: relative;
+	z-index: 5;
+}
+.formulario div {
+	line-height: 4px;
+	margin-bottom: 0.21425em;
+	padding: 0.15em;
+	position: relative;
+	width: 100%;
+}
+.formulario label {
+	margin-bottom: 0;
+}
+.campo-texto {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 1px 1.732px 3px 0px rgba(0, 0, 0, 0.067);
+	color: #888888;
+	display: block;
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 auto;
+	max-width: 400px;
+	padding: 0.83em 0.8em;
+	width: 97%;
+}
+.formulario-par {
+	display: inline-block !important;
+	margin-left: 0.51425em;
+	width: 48% !important;
+}
+.formulario-par:nth-child(odd) {
+	margin-left: 0em !important;
+}
+.formulario-par .campo-texto {
+	max-width: 198px;
+	width: 97%;
+}
+.criancas {
+	/*font-size: 0.96em;*/
+}
+.hotel {
+	color: #888888;
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+.hotel-texto {
+	padding-right: 25%;
+}
+.botao-cotar {
+	background: #e2751b;
+	border: solid 1px transparent;
+	border-bottom: solid 2px #a3230e;
+	border-radius: 2px;
+	color: #ffffff;
+	display: block;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.3em;
+	margin: 0.71425em auto;
+	max-width: 215px;
+	padding: 0.40em 0.8em;
+	text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.137);
+	width: 70%;
+}
+.botao-cotar:hover, .botao-cotar:focus {
+	background: transparent;
+	border: solid 1px #a3230e;
+	border-bottom: solid 2px #a3230e;
+	color: #e2751b;
+}
+/* noticias */
+.noticias {
+	display: inline-block;
+	float: left;
+	height: 25.15em;
+	max-height: 352px;
+	max-width: 755px;
+	padding-top: 3%;
+	position: relative;
+	width: 64.1%;
+}
+.noticias-botao {
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.22em;
+	max-width: 135px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: -3.5em;
+	width: 18%;
+}
+.noticias-botao a {
+	color: #e2751b;
+}
+.noticias-botao a img {
+	margin-left: 0.0275%;
+	width: 31.25%;
+}
+.noticias-linha-data {
+	background: #e2751b;
+	height: 1px;
+	left: 0px;
+	margin-top: 2.301em;
+	max-width: 747px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 15;
+}
+.noticia {
+	display: inline-block;
+	float: left;
+	font-family: Tahoma, sans-serif;
+	font-size: 0.89em;
+	height: 25.15em;
+	max-height: 352px;
+	max-width: 249px;
+	padding: 3.07140em 1.060% 1.14285em 1.060%;
+	position: relative;
+	text-align: justify;
+	width: 33.2%;
+}
+.noticia:nth-child(odd) {
+	background: #f0f0f0;
+}
+.noticia:hover, .noticia:focus {
+	background-color: #E7E7E7;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.noticia-data {
+	background: #ffffff;
+	border: solid 1px #db812e;
+	border-radius: 50%;
+	color: #db812e;
+	display: block;
+	font-family: "opensans semibold 3";
+	font-size: 0.8em;
+	left: 38%;
+	max-height: 62px;
+	max-width: 62px;
+	padding: 5%;
+	position: absolute;
+	text-align: center;
+	top: -9%;
+	width: 26.5%;
+	z-index: 20;
+}
+.noticia-dia {
+	display: block;
+	font-size: 2.45em;
+	line-height: 0.75em;
+}
+.noticia a {
+	color: #4b4b4b;
+}
+.noticia a:hover {
+}
+.noticia a img {
+	/*max-height: 159px;
+	max-width: 232px;*/
+	padding-bottom: 3.435%;
+}
+/* dicas */
+.dicas {
+	display: inline-block;
+	float: left;
+	margin-left: 0.1%;
+	margin-top: -4.2em;
+	max-width: 400px;
+	width: 34.2%;
+}
+.dicas-cabecalho {
+	background: url(../img/dicas-fundo-cabecalho.png) no-repeat left bottom;
+	height: 6em;
+	max-width: 400px;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+}
+.dicas-cabecalho-fundo {
+	display: block;
+	left: 0px;
+	max-width: 197px;
+	position: absolute;
+	top: 0.75em;
+	width: 100%;
+	z-index: 2;
+}
+.dicas-titulo {
+	color: #6d6d6d;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.25em;
+	padding-left: 7%;
+	position: relative;
+	text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.137);
+	z-index: 4;
+}
+.dicas-titulo span {
+	color: #db812e;
+	display: block;
+	font-size: 1.75em;
+}
+.dicas-titulo-ilustracao {
+	position: relative;
+	z-index: 4;
+}
+.dicas-botao {
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.22em;
+	max-width: 135px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 2.4em;
+	width: 33.5%;
+	z-index: 4;
+}
+.dicas-botao a {
+	color: #e2751b;
+}
+.dicas-botao a img {
+	margin-left: 0.0275%;
+	width: 31.25%;
+}
+.dica-container {
+	background: rgba(158,158,158,0.30);
+	max-height: 322px;
+	max-width: 400px;
+	padding: 2.75% 1.75% 4.5% 6%;
+	width: 100%;
+}
+.dica {
+	background: #ffffff;
+	box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.137);
+	font-family: Tahoma, sans-serif;
+	line-height: 1.1429em;
+	margin: 0 auto 2.170% auto;
+	max-height: 67px;
+	max-width: 369px;
+	padding: 2.985% 5.965% 2.985% 8.134%;
+	position: relative;
+	width: 100%;
+}
+.dica:last-child {
+	margin-bottom: 0px !important;
+}
+.dica:hover, .dica:focus {
+}
+.dica-icone {
+	left: -4%;
+	position: absolute;
+	top: 8%;
+}
+.dica-titulo {
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 0.7em;
+	margin: 0;
+}
+.dica a {
+	color: #7a7473;
+	font-size: 0.8em;
+	line-height: 0.2em
+}
+.dica-titulo a {
+	color: #d7731f;
+}
+/* depoimentos */
+.depoimentos {
+	float: left;
+	max-height: 263px;
+	max-width: 802px;
+	position: relative;
+	width: 68.55%;
+}
+.depoimentos-cabecalho {
+	display: block;
+	margin: 1.622% 0% 3.243% 4.365%;
+	max-height: 56px;
+	max-width: 767px;
+	position: relative;
+	text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.137);
+	z-index: 3;
+}
+.depoimentos-cabecalho-fundo {
+	display: block;
+	left: 0px;
+	max-width: 699px;
+	position: absolute;
+	top: 30%;;
+	width: 100%;
+	z-index: 2;
+}
+.depoimentos-titulo {
+	color: #db812e;
+	display: inline-block;
+	font-family: 'pf_beausans_proitalic';
+	position: relative;
+	z-index: 3;
+}
+.depoimentos-subtitulo {
+	color: #db812e;
+	float: right;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.3em;
+	position: relative;
+	z-index: 3;
+}
+.depoimento {
+	color: #6f6f6f;
+	font-family: 'pf_beausans_proitalic';
+	max-height: 135px;
+	max-width: 710px;
+	margin: 0 auto;
+	padding-left: 3.616%;
+	position: relative;
+	width: 100%;
+}
+.depoimento cite {
+	position: relative;
+	z-index: 3;
+}
+.depoimento-avatar {
+	display: inline-block;
+	float: left;
+	margin-right: 3.085%;
+}
+.depoimento a {
+	color: #6f6f6f;
+}
+.depoimento-navegacao {
+	left: -3%;
+	max-height: 43px;
+	position: absolute;
+	top: 35%;
+	width: 107%;
+	z-index: 2;
+}
+.depoimento-navegacao a {
+}
+.depoimento-navegacao img {
+}
+.depoimento-direita {
+	right: 0px;
+	position: absolute;
+	top: 0px;
+}
+/* clima*/
+.clima {
+	float: left;
+	min-height: 200px;
+	min-width: 300px;
+	padding: 2.5% 2%;
+	width: 26.68%;
+}
+/* facebook + newsletter */
+.espaco100porcento {
+	clear: both;
+	display: block;
+	float: left;
+	/*height: 30.2em;*/
+	height: 28.7em;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+}
+/* redefinicoes em largura mínima 1900px e máxima 1999px */
+@media only screen and (max-width: 1999px) and (min-width: 1900px) {
+/* redefinicao altura box espaco100porcento (facebook e newsletter) */
+.espaco100porcento {
+	height: 28.7em;
+}
+}
+
+/* redefinicoes em largura mínima 1800px e máxima 1899px */
+@media only screen and (max-width: 1899px) and (min-width: 1800px) {
+/* redefinicao altura box espaco100porcento (facebook e newsletter) */
+.espaco100porcento {
+	height: 28.7em;
+}
+}
+
+.facebook-newsletter-fundo {
+	display: block;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+}
+.facebook-newsletter {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 2% 0;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+}
+/* facebook */
+.facebook {
+	background: #ffffff;
+	display: inline-block;
+	float: left;
+	margin-right: 3.163%;
+	width: 53.75%;
+}
+/* newsletter */
+.newsletter-container {
+	background-color: rgba(255, 255, 255, 0.812);
+	border: solid 3px rgb(219, 129 ,46);
+	box-shadow: 1.5px 2.598px 5px 0px rgba(0, 0, 0, 0.318);
+	display: inline-block;
+	float: left;
+	max-height: 341px;
+	max-width: 449px;
+	padding: 2.479% 1.795% 2.308% 1.795%;
+	width: 38.35%;
+}
+.newsletter {
+	width: 100%;
+}
+.newsletter-cabecalho {
+	font-size: 1em;
+}
+.newsletter-titulo {
+	color: #e2751b;
+	font-family: 'pf_beausans_proitalic';
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.newsletter-subtitulo {
+	color: #e2751b;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.45em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.newsletter div {
+}
+.botao-newsletter {
+	background: #e2751b;
+	border: solid 1px transparent;
+	border-bottom: solid 2px #a3230e;
+	border-radius: 2px;
+	color: #ffffff;
+	display: block;
+	font-family: 'pf_beausans_proitalic';
+	font-size: 1.3em;
+	margin: 0.71425em auto;
+	max-width: 215px;
+	padding: 0.40em 0.8em;
+	text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.137);
+	width: 70%;
+}
+.botao-newsletter:hover, .botao-newsletter:focus {
+	background: transparent;
+	border: solid 1px #a3230e;
+	border-bottom: solid 2px #a3230e;
+	color: #e2751b;
+}
+/* redefinicoes em largura mínima 768px e máxima 1199px */
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+/* redefinicao margem bottom do topo */
+.topo {
+	margin-bottom: 2vw;
+}
+/* redefinicao altura do box banners */
+.banners {
+	height: 30vw;
+}
+/* redefinicao box navegacao dos banners */
+.banners-navegacao-formulario-cotacao {
+	margin-top: 7em;
+}
+/* redefinicao navegacao direita do banner */
+.banners-direita {
+	left: 91%;
+}
+/* redefinicao exibicao formulario de cotacao */
+.cotacao {
+	display: none;
+	visibility: hidden;
+}
+/* redefinicao box noticias */
+.noticias {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
+}
+/* redefinicao padding box data noticias */
+.noticia-data {
+	padding: 6%;
+}
+/* redefinicao box dicas */
+.dicas {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 96%;
+}
+/* redefinicao box depoimentos */
+.depoimentos {
+	display: block;
+	float: none;
+	height: 16em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 96%;
+}
+/* redefinicao box navegacao dos depoimentos */
+.depoimento-navegacao {
+	left: -1%;
+	width: 104%;
+}
+/* redefinicao clima tempo */
+.clima {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 96%;
+}
+/* redefinicao espaco100porcento */
+.espaco100porcento {
+	height: 50em;
+}
+/* redefinicao altura fundo facebook + newsletter */
+.facebook-newsletter-fundo {
+	height: 100%;
+}
+/* redefinicao box facebook*/
+.facebook {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 81.9%;
+}
+/* redefinicao box newsletter*/
+.newsletter-container {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	width: 81.9%;
+}
+}
+/* redefinicoes em largura mínima 1200px */
+@media only screen and (min-width: 1200px) {
+/* redefinicao margem bottom do topo */
+.topo {
+	margin-bottom: 3.1vw;
+}
+/* redefinicao exibicao formulario de cotacao */
+.cotacao {
+	display: inline-block;
+	visibility: visible;
+}
+/* redefinicao altura fundo facebook + newsletter */
+.facebook-newsletter-fundo {
+	height: 100%;
+}
+}
