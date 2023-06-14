@@ -9,11 +9,11 @@
 <head>
 <!-- 10/02/2015 -->
 <!-- meta tags -->
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="title" content="Voe Sempre - Viagens e Turismo"/>
-<meta name="author" content="GO!Sites - Soluções Online - (62) 3941-7878 gosites@gosites.com.br">
-<meta name="copyright" content="® 2015" />
+<meta name="author" content="GO!Sites - Soluï¿½ï¿½es Online - (62) 3941-7878 gosites@gosites.com.br">
+<meta name="copyright" content="ï¿½ 2015" />
 <meta name="keywords" content="" />
 <meta name="distribution" content="global">
 <meta property="og:url" content="http://www.voesempreturismo.com.br"/>
@@ -82,7 +82,7 @@
       <div class="rodape-container">
         <section class="contatos">
           <img src="../img/icone-telefone.png" alt="telefone 62 3945-1374"> 62 3945-1374<br />
-          <address class="endereco">Rua 06, 370 - Sala 206 - Ed. Empire Center - Setor Oeste, Goiânia - Goiás - CEP:74.115-070</address>
+          <address class="endereco">Rua 06, 370 - Sala 206 - Ed. Empire Center - Setor Oeste, Goiï¿½nia - Goiï¿½s - CEP:74.115-070</address>
         </section>
         <section class="grupo">
           <img src="../img/marca-goiania-invest-imobiliaria.jpg" alt="Goi&acirc;nia invest Imobili&aacute;ria">
@@ -181,7 +181,7 @@
         <a href="http://www.twitter.com/" target="_blank"><img src="../img/icone-twitter.png" alt="Twitter"></a>
       </section>
       <section class="movel-telefone"><img src="../img/icone-telefone.png" alt="telefone 62 3945-1374"> 62 3945-1374</section>
-      <address class="movel-endereco">Rua 06, 370 - Sala 206 - Ed. Empire Center - Setor Oeste, Goiânia - Goiás - CEP:74.115-070</address>
+      <address class="movel-endereco">Rua 06, 370 - Sala 206 - Ed. Empire Center - Setor Oeste, Goiï¿½nia - Goiï¿½s - CEP:74.115-070</address>
       <section class="movel-contato"><a href="mailto:contato@voesempreturismo.com.br"><img src="../img/mob-icone-email.png" alt="telefone 62 3945-1374"><br /> contato@voesempreturismo.com.br</a></section>
       desenvolvido por <a href="http://www.gosites.com.br" target="_blank"><img src="../img/gosites.svg" alt="GO!Sites" class="movel-gosites"></a><span class="movel-copyright">&copy; 2015</span>
     </footer>
